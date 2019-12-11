@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+header {
+    display: relative;
+    background-color: black;
+    height: 50px;
+    width: 100%
+}
+nav li {
+    display: inline-block;
+    padding-right: 2rem;
+    float: right;
+    color:white 
+}
+nav li:last-child {
+    padding-right:20px;
+    color: white
+}
+#jumbotron {
+    position:relative;
+    height: 44rem;
+    padding: 0 25%;
+    background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRjDmRb1ern7Ix9xCYq63evhBEvmHVzhdisngUBEYyH_oWLj8xV");
+    background-size: cover;
+    text-align: center;
+}
+#jumbotron p {
+    color: white;
+    line-height: 1.5;
+    font-size: 1.375rem
+}
+
