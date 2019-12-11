@@ -1,39 +1,120 @@
 body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
     margin: 0;
     padding: 0;
 }
 
-html {
+header {
+    background: black;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: wheat 3px solid;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
     font-size: 16px;
 }
 
-header {
-    display: relative;
-    background-color: black;
-    height: 50px;
-    width: 100%
-}
-nav li {
-    display: inline-block;
-    padding-right: 2rem;
-    float: right;
-    color:white 
-}
-nav li:last-child {
-    padding-right:20px;
-    color: white
-}
-#jumbotron {
-    position:relative;
-    height: 44rem;
-    padding: 0 25%;
-    background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRjDmRb1ern7Ix9xCYq63evhBEvmHVzhdisngUBEYyH_oWLj8xV");
-    background-size: cover;
-    text-align: center;
-}
-#jumbotron p {
-    color: white;
-    line-height: 1.5;
-    font-size: 1.375rem
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
 }
 
+header #navbar {
+    float: left;
+}
+
+header #navbar h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+#jumbotron {
+    min-height: 400px;
+    background: url("img/bg-2.png") no-repeat;
+    text-align: center;
+    color: white;
+}
+
+#jumbotron h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#jumbotron p {
+    font-size: 20px;
+}
+
+#boxes {
+    margin-top: 20px;
+}
+
+#boxes .box {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+
+#boxes .box img {
+    width:90px;
+}
+
+footer {
+    width: calc(100% - 80px);
+    padding: 40px 40px;
+    margin-top: 20px;
+    background-color: #111;
+    overflow: hidden;
+}
+
+footer ul {
+    width: 200px;
+    float: left;
+    padding-left: 20px;
+}
+
+footer ul li {
+    display: block;
+    list-style: none;
+}
+
+footer ul li a {
+    font-size: 24px;
+    color: #fff;
+    line-height: 40px;
+}
+
+.footer-socmed {
+    width: 55px;
+    float: right;
+}
+
+.footer-socmed img {
+    width: 100%;
+    margin-bottom: 10px;
+}
