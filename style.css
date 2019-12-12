@@ -148,3 +148,8 @@ footer ul li a {
    text-align: center;
     
 }
+
+.box-bill {
+    display: block;
+    text-align: center;
+}
