@@ -54,7 +54,7 @@ header nav {
 
 #jumbotron {
     min-height: 400px;
-    background: url("img/kopiheader.png") no-repeat 0 -50px;
+    background: url("img/kopiheader.png") no-repeat;
     text-align: center;
     color: white;
 }
@@ -82,7 +82,9 @@ header nav {
 
 #boxes .box img {
     width:300px;
+    height: 200px;
 }
+
 
 footer {
     width: calc(100% - 80px);
@@ -117,4 +119,17 @@ footer ul li a {
 .footer-socmed img {
     width: 100%;
     margin-bottom: 10px;
+}
+
+.box {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+
+}
+
+.containers:after {
+    content: "";
+    clear: both;
+    display: table;
 }

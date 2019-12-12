@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Login</title>
+</head>
+<style>
+  body {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    /* background-color: black; */
+    /* background-image: linear-gradient(black, white); */
+    text-align: center;
+  }
+
+  .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background: black;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: wheat 3px solid;
+  }
+
+  header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+
+  header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+  }
+
+  header #navbar {
+    float: left;
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+
+  header #navbar h1 {
+    margin: 0;
+  }
+
+  header nav {
+    float: right;
+    margin-top: 10px;
+  }
+
+  h3 {
+    color: black;
+    /* text-align: left; */
+  }
+
+  input[type=text] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=text],
+  [type=password] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=submit] {
+    width: 40%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input {
+    font-size: 15px;
+  }
+
+  div {
+    /* border-radius: 20px; */
+    /* background-color: #f2f2f2; */
+    padding-top: 5px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    margin-top: 30px;
+
+  }
+
+  footer {
+    width: calc(100% - 80px);
+    padding: 40px 40px;
+    margin-top: 20px;
+    background-color: #111;
+    overflow: hidden;
+  }
+
+  footer ul {
+    width: 200px;
+    float: left;
+    padding-left: 20px;
+  }
+
+  footer ul li {
+    display: block;
+    list-style: none;
+  }
+
+  footer ul li a {
+    font-size: 24px;
+    color: #fff;
+    line-height: 40px;
+  }
+
+  .footer-socmed {
+    width: 55px;
+    float: right;
+  }
+
+  .footer-socmed img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  h1 {}
+</style>
+<!-- gado gado -->
+
+<body>
+  <header>
+    <div class="container">
+      <div id="navbar">
+        <h1>E-Commerce Website</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div>
+    <input type="text" placeholder="E-mail / Username">
+    <br>
+    <input type="password" placeholder="Password">
+    <br>
+
+    <a href="">
+      <p>
+        <a href="lupa.html">
+          <h3>Lupa Password?</h3>
+      </p>
+    </a>
+    </a>
+    <a href="choose.html">
+      <input type="submit" value="Login">
+    </a>
+    <!-- <hr /> -->
+    <!-- hr  = membuat garis horizontal -->
+    <!-- <input type="submit1" value="Login dengan Facebook"> -->
+    <!-- <br> -->
+    <!-- <input type="submit1" value="Login dengan Google"> -->
+    <!-- <br> -->
+  </div>
+
+  <footer>
+    <div>
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="survey.html">Survey</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+      </ul>
+      <!--<ul class="footer-news">
+                  <li><p>Latest News</p></li>
+                  <li><a href="#">New Arrivals</a></li>
+                  <li><a href="#">Happy New Year!</a></li>
+              </ul>-->
+      <div class="footer-socmed">
+        <a href="#">
+          <img src="img/facebook-icon.png" alt="Facebook icon">
+        </a>
+        <a href="#">
+          <img src="img/twitter-icon.png" alt="Twitter icon">
+        </a>
+        <a href="#">
+          <img src="img/instagram-icon.png" alt="Instagram icon">
+        </a>
+      </div>
+  </footer>
+</body>
+
+</html>
