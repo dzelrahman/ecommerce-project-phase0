@@ -133,3 +133,18 @@ footer ul li a {
     clear: both;
     display: table;
 }
+
+#choose-form{
+    margin: auto;
+}
+.choose {
+    width: 30%;
+    padding: 10px;
+    display: inline-block;
+}
+
+.submission {
+   margin: 50px;
+   text-align: center;
+    
+}
